@@ -25,6 +25,7 @@ class Xy_shModuleSite extends WeModuleSite {
 	public function doMobileNavigate() {
 		//这个操作被定义用来呈现 微站首页导航图标
         load()->func('tpl');
+        //分支测试
         include $this->template('webindex');
 	}
 	public function doMobileCenter() {
